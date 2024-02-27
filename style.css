@@ -1,0 +1,70 @@
+/*definimos que todo texto dentro do body terá fonte open -sans */
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    text-align: center; /*alinhando o texto no centro*/
+    margin: 0;
+    
+}
+
+#hero{
+    width: 592px; /*posicionamento,ao usar isso o text align acaba perdendo um pouco de sua centralização*/
+    margin: 0 auto 72px; /* o primeiro comando passa a posição de cima e o segundo das laterais
+    usado para tentar posicionar automaticamente o texto que foi movido e o terceiro para baixo, como se fosse um relogio*/
+    
+
+}
+#hero img {
+    margin-bottom: 72px; /* colocar espaçamento da imagem */
+}
+
+h1 {
+    /*alteramos o tamanho, altura e fonte do h1*/
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+
+    margin-bottom: 32px;
+
+}
+/* Mudamos a fonte do Unicos que está dentro do span no h1 para bold */
+h1 span{
+    font-weight: bold;
+}
+
+
+span, a{
+    color: #FF9900;
+
+}
+
+P, #footer{
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+#footer a + a{ /*pega o a que vem anterior ao A dai aplica so nele,enquanto houver essa sequencia de poder pegar o A, ele vai aplicando
+    , no nosso caso aplicamos o espaçamento na esquerda*/
+
+    margin-left: 28px;
+
+    
+}
+
+
+#line {
+
+    width: 568px;
+    height: 0;
+    margin: 0 auto 8px;
+    border: 1px solid #ECEFF2;
+}
+
+#Balls{ /*posicionamento das bolinhas */
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    
+}
